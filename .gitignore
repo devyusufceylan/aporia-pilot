@@ -1,0 +1,48 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Go
+bin/
+build/
+dist/
+coverage.out
+*.test
+*.prof
+
+# Wails
+wailsjs/
+frontend/dist/
+
+# Frontend
+frontend/node_modules/
+node_modules/
+*.tsbuildinfo
+
+# Local data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+.sessions/
+.checkpoints/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and reports
+*.log
+reports/
+coverage/
+
+# Temporary files
+.tmp/
+tmp/
+*.tmp
